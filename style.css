@@ -1,0 +1,596 @@
+body{
+    width: 100%;
+    color: rgb(108, 75, 199);
+    background-color: #abe6e8;
+    margin: 0px;
+}
+header{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    color: rgb(108, 75, 199);
+}
+.brand{
+    font-size: 50px;
+    color: white(95, 235, 95);
+}
+.gap{
+    font-size: 50px;
+}
+.header {
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    width: 100%; 
+    max-width: 1200px;
+}
+.WhatIsAsool{
+    margin: 0 20px; 
+}
+h3{
+    color: rgb(108, 75, 199);;
+}
+.HeaderCenter{
+    align-items: center;
+    text-align: center;
+}
+
+a:hover {
+    background-color: #000000;
+    color: white;
+}
+a {
+    font-style: normal;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    white-space: nowrap;
+    /*background-color: rgb(44, 230, 20);*/
+    background-color: rgb(108, 75, 199);
+    border-radius: 20px;
+    padding: 10px 20px;
+    margin: 0 10px;
+    display: inline-block;
+
+}
+
+/*main*/
+
+.first{
+    height: 70vh;
+    width: 100%; 
+    /*background-image: linear-gradient(to left top, rgb(29, 28, 28) 50%,#448c08, rgb(49, 48, 48));*/
+    /*background: rgb(68,140,8);
+    background: radial-gradient(circle, rgb(36, 78, 1) 0%, rgba(0,0,0,0.865983893557423) 49%);
+    */
+    background: rgb(255,255,255);
+    background: linear-gradient(90deg, rgba(255,255,255,1) 52%, rgba(171,230,232,1) 100%);
+   display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center; 
+    box-sizing: border-box;
+
+}
+.contain {
+    animation-name: ani;
+    animation-duration: 8s;
+    animation-iteration-count: infinite; 
+    animation-timing-function: ease-in-out;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.Asool h1,p{
+    font-size: 40px;
+    font-weight: bold;
+}
+h1{
+    font-size: 100px;
+}
+/* seccond section */
+.second{
+    max-width: 100%;
+}
+.intro{
+    color: rgb(108, 75, 199);
+    
+}
+.intro h1{
+    margin-right: 20px;
+    text-align: center;
+}
+.introP{
+    margin-right: 20px;
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0px;
+    width: 100%;
+    padding: 0px;
+    color: white;
+}
+
+.flex-item {
+    margin: 5px;
+    width: 300px;
+    
+}
+
+.card {
+    position: relative;
+    border: 1px solid white;
+    align-items: center;
+    text-align: center;
+    margin: 20px;
+    background-color:rgb(108, 75, 199);  
+}
+
+.card-body {
+    margin: 15px;
+}
+.pCard{
+    font-size: 18px;
+    color: white;
+    text-align: center;
+}
+.hCard{
+    font-size: 30px;
+    color: white(108, 75, 199);
+    font-weight: bold;
+}
+.card-body h4,p{
+    font-size: 20px;
+}
+.card img {
+    width: 100%;
+}
+.card-image {
+    height: 200px;
+    background-position: center;
+    background-size: cover;
+}
+
+
+
+/*section 2*/
+/* Section */
+.section2 {
+    width: 100%;
+    background-color: rgb(108, 75, 199);
+    display: flex;
+    align-items: center;
+}
+
+.text-content {
+    font-size: 40px;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    margin-right: 5px;
+    width: 20%;
+}
+
+/* Marquee */
+.marquee {
+    overflow: hidden;
+    background-color: #e8edf1;
+    display: flex;
+    align-items: center;
+    width: 80%;
+    position: relative;
+}
+
+.marquee-content {
+    display: flex;
+    width: max-content; /* Allows the content to be as wide as necessary */
+    animation: scroll 40s linear infinite;
+}
+
+.company {
+    display: flex;
+    align-items: center;
+    opacity: 0.7;
+    white-space: nowrap; /* Prevent text wrapping */
+}
+
+.company img {
+    width: 200px;
+    height: 150px;
+    margin-right: 10px;
+}
+
+/* Scroll animation */
+@keyframes scroll {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+
+
+
+/* section 3 */
+.section3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.sec3flex{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 80%;
+    margin: 0px;
+    transition: background-color 0.5s, color 0.5s; /* Smooth transition */
+    border-radius: 10px;
+}
+.card2-image {
+    height: 150px;
+    width: 200px;
+    background-position: center;
+    background-size: cover;
+    margin-left: 30px;
+    margin-right: 0px;
+}
+.section3 .step {
+    color: rgb(108, 75, 199);
+    margin-right: 20px;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+    transition: background-color 0.5s, color 0.5s; /* Smooth transition */
+}
+.secction3 .sec3flex.active .step{
+    background-color: rgb(108, 75, 199);
+    color: white;
+}
+.section3 .sec3flex.active{
+    background-color: rgb(108, 75, 199);
+    color: white;
+}
+
+
+/* section 4*/
+.section4{
+    align-items: center;
+}
+
+.sec4{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+}
+#productID{
+    width: 300px;
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+button{
+    width: 400px;
+    padding: 15px;
+    background-color: #4CAF50; /* Green background */
+    color: white; /* White text */
+    font-size: 18px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s, box-shadow 0.3s; /* Smooth hover transition */
+}
+
+button:hover{
+    background-color: #45a049; /* Darker green on hover */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Slight shadow on hover */
+}
+
+
+
+/* footer */
+footer{
+    margin-top: 50px;
+    height: 200px;
+    width: 100%;
+    background-color: rgb(108, 75, 199);
+    display: flex;
+    justify-content: center;
+}
+footer h1{
+    color: white;
+    font-size: 50px;
+    text-align: center;
+}
+.footerh1{
+    text-align: center;
+    margin-top: 50px;
+}
+/*contect */
+.contactus{
+    display: flex;
+    justify-content: space-around;
+    gap: 15px;
+    width: 100%;
+}
+.expand{
+    padding: 20px;
+    width: 100%;
+    margin: 20px 0px;
+}
+.form1{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.con{
+    width: 100%;
+}
+input, textarea{
+    font-family: "Rubik", sans-serif;
+    padding: 20px;
+    text-align: center;
+}
+.contactus button{
+    border-width: 0;
+    padding: 40px;
+    height: 40px;
+    background-color: rgb(95, 235, 95);
+}
+.nameandem{
+    margin: 0px 20px;
+}
+.butt{
+    align-items: center;
+}
+
+@keyframes scroll {
+    0% {
+        transform: translateX(100%);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}
+    @keyframes ani {
+    0%{
+        margin-top: 100px;
+    }
+    50%{
+        margin-top: 200px;
+    }
+    100%{
+        margin-top: 100px;
+    }
+}
+
+
+@media (max-width: 768px) {
+    body{
+        width: 100%;
+    }
+    a{
+        font-size: 10px;
+        padding: 3px 7px;
+        margin: 0 2px;
+    }
+    .contain {
+        flex-direction: column;
+        flex-direction: row;
+    }
+    .header{
+        flex-direction: row;
+        padding: 4px;
+    }
+    .brand{
+        font-size: 15px;
+    }
+    .gap{
+        font-size: 10px;
+        margin-left: 10px;
+    }
+    .WhatIsAsool{
+        margin: 3px;
+        text-align: center;
+    }
+    img{
+        width: 100%;
+    }
+    .header {
+        flex-wrap: wrap; 
+        justify-content: center; 
+    }
+    /*main */
+    .Asool h1,p{
+        font-size: 15px;
+        font-weight: bold;
+    }
+    h1{
+        font-size: 40px;
+    }
+    .marquee{
+        padding: 0px;
+        }
+        .marquee h1{
+            margin: 0px;
+        }
+        .marquee-content {
+            margin: 0px;
+            width: 100%;
+        }
+        .text-content {
+            font-size: 15px;
+        }
+        .sec3flex{
+            width: 100%;
+            margin: 0px;
+            padding: 0px;
+            height: 200px;
+        }
+        .sec3flex img {
+            width: 100%;
+            height: 100%;
+        }
+        .hCard{
+            font-size: 25px;
+            text-align: center;
+            margin: 0px;
+            margin-bottom: 10px;
+            margin-right: 9px;
+        }
+        .pCard{
+            font-size: 12px;
+            margin: 0px;
+        }
+        .card2-image {
+            width: 100%;
+            background-position: center;
+            background-size: cover;
+            margin: 0px;
+            padding: 0px;
+            height: 100%;
+        }
+        .section3{
+            width: 100%;
+        }
+
+        footer{
+            margin-top: 50px;
+            height: 100px;
+            background-color: rgb(108, 75, 199);
+            display: flex;
+            justify-content: center;
+        }
+        footer h1{
+            color: white;
+            font-size: 15px;
+            text-align: center;
+        }
+        .footerh1{
+            text-align: center;
+            margin-top: 25px;
+        }
+        /*contect */
+        .contactus{
+            display: flex;
+            justify-content: space-around;
+            gap: 4px;
+        }
+        .expand{
+            padding: 10px;
+            height: 40px;
+            width: 370px;
+            margin: 20px 0px;
+        }
+        input, textarea{
+            font-family: "Rubik", sans-serif;
+            padding: 10px;
+            text-align: center;
+        }
+        .contactus button{
+            border-width: 0;
+            padding: 40px;
+        }
+        .nameandem{
+            margin: 0px 10px;
+        }
+        .butt{
+            align-items: center;
+            align-items: center;
+        }
+        .form1{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .sec4 h3{
+            font-size: 20px;
+        }
+        footer{
+            width: 100%;
+        }
+
+
+    @keyframes ani {
+        0%{
+            margin-top: 0px;
+        }
+        50%{
+            margin-top: 90px;
+        }
+        100%{
+            margin-top: 0px;
+        }
+    }
+}
+
+@media (min-width: 500px) and (max-width: 1000px) {
+    @keyframes ani {
+        0%{
+            margin-top: 0px;
+        }
+        50%{
+            margin-top: 50px;
+        }
+        100%{
+            margin-top: 0px;
+        }
+    }
+    .header{
+        width: 900;
+    }
+    .brand{
+        font-size: 40px;
+    }
+    a{
+        font-size: 15px;
+    }
+    .contain{
+        margin: 0px;
+        width: 100%;
+    }
+    .first{
+        height: 90vh;
+    }
+}
+@media (min-width: 100px) and (max-width: 400px) {
+    @keyframes ani {
+        0%{
+            margin-top: 0px;
+        }
+        100%{
+            margin-top: 0px;
+        }
+    }
+    .first{
+        margin:0px;
+        align-items: center;
+    }
+    .second{
+        margin-top: 20px;
+    }
+    .Asool{
+        height: 10px;
+    }
+    .image1{
+        height: 10px;
+    }
+    .image1 img{
+        height: 20px;
+    }
+    footer{
+        width: 100%;
+    }
+}

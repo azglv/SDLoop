@@ -1,0 +1,130 @@
+<!DOCTYPE HTML>
+<html lang="ar" dir="rtl">
+    <head>
+		<title>اصول</title>
+		<meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="product.css">
+		<style>
+			body{
+		     font-family: "Rubik", sans-serif;
+ 		     font-optical-sizing: auto;
+ 		     font-style: normal;
+             width: 100%;
+			}
+            .success {
+                color: green;
+                display: none;
+            }
+		</style>
+	</head>
+
+	<body>
+        <header>
+            <div class="header">
+                <h1 href="" class="brand">أصول </h1>
+                <h3 href=""class="gap"> | </h3>
+                <a href="index.html" class="WhatIsAsool">الرئيسية</a>
+            </div>
+    </header>
+    <main>
+        <section class="first">
+            <div class="contain">
+                <div class="ASOOL">
+                    <h1 class="Asool_text">ثلاجة</h1>
+                    <p>ثلاجة ترست. 18.9 قدم، 535 لتر- انفرتر أستيل </p>
+                </div>
+                <div class="image1"></div>
+                    <img src="assets/fridge.png" alt="">
+                </div>
+            </div>
+        </section>
+        <section class="second">
+            <table>
+                <tr>
+                    <th>اسم الشركة المصنعة</th>
+                    <td>Z-TRUST</td>
+                </tr>
+                <tr>
+                    <th>تاريخ الصنع</th>
+                    <td>9/8/2017</td>
+                </tr>
+                <tr>
+                    <th>صنع في</th>
+                    <td>الظهران، المملكة العربية السعودية</td>
+                </tr>
+                <tr>
+                    <th>الموديل</th>
+                    <td>ZRF9301AA</td>
+                </tr>
+                <tr>
+                    <th>اللون</th>
+                    <td>أستيل</td>
+                </tr>
+                <tr>
+                    <th>انتهاء الضمان</th>
+                    <td>سنتين منذ تاريخ التصنيع</td>
+                </tr>
+                <tr>
+                    <th>التصميم</th>
+                    <td>باب واحد</td>
+                </tr>
+                <tr>
+                    <th>السعر وقت الشراء</th>
+                    <td>1422</td>
+                </tr>
+                <tr>
+                    <th>العرض</th>
+                    <td>88cm, 229cm, 93Kg</td>
+                </tr>
+                <tr>
+                    <th>الارتفاع</th>
+                    <td>229cm</td>
+                </tr>
+                <tr>
+                    <th>الوزن</th>
+                    <td>93Kg</td>
+                </tr>
+                <tr>
+                    <th>منتج صديق للبيئة؟</th>
+                    <td>نعم</td>
+                </tr>
+                <tr>
+                    <th>معلومات اضافية</th>
+                    <td>رفوف مصنوعة من الزجاج، تشغيل هادئ، نظام تحكم بالرطوبة، اضاءة LED</td>
+                </tr>
+            </table>
+        </section>
+        <section>
+            <div class="sec4">
+                <h3>هل ترغب باعادة تدوير منتجك والحصول على مقابل؟</h3> 
+                <button id="submitBtn">قم بالتقديم الآن!</button>
+                <p class="success" id="success-message">تم تقديم طلبك بنجاح!، شكرًا لك</p>
+            </div>
+        </section>
+        </main>
+        <footer>
+            <div class="footerh1">
+                <h1>شكرًا على زيارتك الموقع ونتطلع لخدمتك قريبًا</h1>
+            </div>
+        </footer>
+        
+        <script>
+            document.addEventListener('DOMContentLoaded', () => {
+                const submitBtn = document.getElementById('submitBtn');
+                const successMessage = document.getElementById('success-message');
+        
+                submitBtn.addEventListener('click', (e) => {
+                    e.preventDefault();  // Prevent default button action
+                    displaySuccessMessage();
+                });
+        
+                function displaySuccessMessage() {
+                    successMessage.style.display = 'block';  // Show the success message
+                }
+            });
+        </script>
+    </body>
+
+</html>
