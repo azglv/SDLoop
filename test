@@ -1,0 +1,42 @@
+
+
+
+<script type="text/javascript" src="https://cdn.emailjs.com/dist/email.min.js"></script>
+<script type="text/javascript">
+    (function(){
+        emailjs.init('Fbi9YuSkHywLk_pu7'); // Replace with your EmailJS user ID
+    })();
+    
+document.getElementById('contact-form').addEventListener('submit', function(event) {
+document.getElementById('contact-form').addEventListener('submit', function(event) {
+event.preventDefault(); // Prevent the default form submission
+
+// Debugging alert to check if the function is being called
+alert('Form submitted! Preparing to send the email...');
+
+emailjs.sendForm('service_d19wv6m', '__ejs-test-mail-service__', this)
+    .then(function() {
+        alert('Message sent successfully!');
+    }, function(error) {
+        alert('Failed to send the message: ' + JSON.stringify(error));
+    });
+});
+});
+/*
+<section class="contactus">
+                <div style="text-align: center; max-width: 600px;" class="con">
+                    <h1 style="color: white;">تواصل معنا</h1>
+                    <form action="" class="form1" id="contact-form">
+                        <input type="text" placeholder="الاسم" class="nameandem" name="name" required>
+                        <input type="email" placeholder="البريد الالكتروني" class="nameandem" name="email" required>
+                        <div>
+                        <textarea placeholder="محتوى رسالتك" name="message" id="" class="expand" required></textarea>
+                        </div>
+                        <div class="butt">
+                            <button type="submit" class="send">ارسال</button>
+                        </div>
+                    </form>
+                </div>
+            </section>
+            
+            */
